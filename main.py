@@ -22,7 +22,7 @@ class Bank:
     def check_balance(self):
         return self.balance
 
-
+#This class create database and update
 class BankDatabase:
     def __init__(self):
         self.database = mysql.connector.connect(host='localhost', user='root', password='', database='BANK')
